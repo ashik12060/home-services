@@ -1,0 +1,220 @@
+.slick-list,
+.slick-slider,
+.slick-track {
+    position: relative;
+    display: block
+}
+
+.slick-slider {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+}
+
+.slick-list {
+    overflow: hidden;
+    margin: 0
+}
+
+.slick-list:focus {
+    outline: 0
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.slick-track {
+    top: 0;
+    left: 0
+}
+
+.slick-track:after,
+.slick-track:before {
+    display: table;
+    content: ''
+}
+
+.btnnone.slick-prev.slick-arrow,
+.slick-arrow.slick-hidden,
+.slick-slide,
+.slick-slide.slick-loading img {
+    display: none
+}
+
+.slick-track:after {
+    clear: both
+}
+
+.slick-loading .slick-slide,
+.slick-loading .slick-track {
+    visibility: hidden
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    outline: 0
+}
+
+[dir=rtl] .slick-slide {
+    float: right
+}
+
+.slick-slide.dragging img {
+    pointer-events: none
+}
+
+.slick-initialized .slick-slide {
+    display: block
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent
+}
+
+.slick-next,
+.slick-prev {
+    position: absolute;
+    top: 42%;
+    display: block;
+    padding: 0;
+    outline: 0;
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+    width: 30px;
+    height: 39px;
+    margin-top: 0
+}
+
+.slick-prev {
+    left: 0;
+    background: url(../../images/btn_arw.png) top left no-repeat
+}
+
+.slick-next {
+    right: 0;
+    background: url(../../images/btn_arw.png) top right no-repeat
+}
+
+.s4_review_row .slick-next,
+.s4_review_row .slick-prev {
+    width: 20px;
+    height: 40px
+}
+
+.s4_review_row .slick-prev {
+    left: -20px;
+    background: url(../../images/btn_arw.png) top left/100% no-repeat
+}
+
+.s4_review_row .slick-next {
+    right: -20px;
+    background: url(../../images/btn_arw.png) top right/100% no-repeat
+}
+
+ul.slick-dots {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    text-align: center
+}
+
+ul.slick-dots li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2px;
+    cursor: pointer;
+    width: 16px;
+    padding: 0;
+    border: none;
+    border-radius: 100%
+}
+
+ul.slick-dots li button {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #cfd3d7;
+    text-indent: -9999px;
+    display: block;
+    outline: 0;
+    border: none;
+    padding: 0
+}
+
+ul.slick-dots li.slick-active button {
+    background: #3d348b
+}
+
+.customer_review_row .slick-slide {
+    margin: 25px 20px
+}
+
+.customer_review_row .slick-next,
+.customer_review_row .slick-prev {
+    width: 57px;
+    height: 58px;
+    top: -20%;
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 7px 2px rgba(0, 0, 0, .1);
+    border-radius: 50%
+}
+
+.customer_review_row .slick-prev {
+    background: url(../../images/btn_arw.png) center center/100% no-repeat;
+    left: auto;
+    right: 200px
+}
+
+.customer_review_row .slick-next {
+    background: url(../../images/btn_arw.png) center center/100% no-repeat;
+    left: auto;
+    right: 120px
+}
+
+@media only screen and (max-width:767px) {
+    .customer_review_row .slick-slide {
+        margin: 10px 20px
+    }
+    .customer_review_row .slick-next,
+    .customer_review_row .slick-prev {
+        width: 35px;
+        height: 35px;
+        top: 49%;
+        background-size: 100%
+    }
+    .customer_review_row .slick-next {
+        right: 5px
+    }
+    .customer_review_row .slick-prev {
+        right: auto;
+        left: 5px
+    }
+}
+
+
+
+

@@ -1,0 +1,65 @@
+/* Container */
+.dnc-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  color: #1f2937; /* Tailwind gray-900 equivalent */
+  text-align: left;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+/* Headings */
+.dnc-title {
+  font-size: 2rem; /* text-3xl */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #d1d5db; /* border-gray-300 */
+  padding-bottom: 0.5rem;
+}
+
+.dnc-subtitle {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+/* Paragraph */
+.dnc-paragraph {
+  margin-bottom: 1.5rem;
+  line-height: 1.75rem; /* leading-relaxed */
+}
+
+/* Lists */
+.dnc-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: #1f2937; /* bullet color */
+}
+
+.dnc-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+.dnc-list {
+  list-style-type: disc !important;  /* Force bullets to show */
+  list-style-position: inside !important;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: #1f2937; /* bullet color */
+}
+
+.dnc-list li {
+  margin-bottom: 0.5rem;
+}
+
+.dnc-link:hover {
+  color: #2563eb; /* Tailwind blue-600 */
+}
+ul {
+  list-style-type: disc !important;
+}

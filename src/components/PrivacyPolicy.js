@@ -1,0 +1,196 @@
+import React from "react";
+import Header from "./Shared/Header/Header";
+import Footer from "./Footer";
+
+const PrivacyPolicy = () => {
+  return (
+    <>
+    <Header />
+    <div className=" min-h-screen w-full p-8 lg:p-16">
+      <div className=" mx-auto bg-white overflow-hidden">
+        <div className="px-8 py-10 lg:px-16 lg:py-16">
+          <h1 className="text-4xl font-bold text-gray-900 mb-8 text-left">
+            Privacy Policy
+          </h1>
+         <div className=" text-lg">
+           <p className="text-gray-700 mb-8 text-left leading-relaxed">
+           This Privacy Policy (“Policy”), provided by easyhomeservice.com (“Website,” “us,” “our,” or “we”), is an essential document that outlines our commitment to safeguarding your privacy and ensuring transparency in how we manage your personal information. You can always access and review this Policy at easyhomeservice.com/privacy-policy. Its primary purpose is to provide you with a clear understanding of our privacy practices, including how we collect, use, disclose, and process your personal information. We also detail your available options and rights concerning how we handle your personal data. Please note that this Policy applies exclusively to easyhomeservice.com, and we maintain a direct, responsible, or “data controller” relationship with you, our valued user.
+           
+          </p>
+
+          {/* Section Cards */}
+          <SectionCard title="Acceptance" className=" text-lg">
+Anyone who accesses the Sites (hereafter referred to as “you”) represents and certifies that you accept the terms and data practices outlined in this Policy. Please stop using the Sites immediately if you disagree with this Policy.
+
+          </SectionCard>
+
+          <SectionCard title="Changes to this Policy">
+We reserve the right to periodically update this Policy without giving you prior notice. Such modifications may apply to any personal information we currently have on file about you or any personal information obtained after the Policy has been amended, unless otherwise specified in this Policy. Changes are effective as of the “Last Modified” date at the top of this Policy and will be noted on this page. To keep up with our most recent developments, we ask that you often check this page. If you use or continue to use this site after any changes take effect, it means you agree to the updated Policy.
+<br/>
+Additionally, we could give you “just-in-time” disclosures or more details about how our Site’s various sections handle personal data. These announcements could add to this policy or give you more options for how your personal information is processed.
+
+          </SectionCard>
+
+          <SectionCard title="Third Parties">
+The information processed by third parties, such as when you browse a third-party website or engage with a third-party service after clicking on a link from the Sites or those with whom we may exchange information as described in this Policy, is not covered by this policy. Before giving any third parties your information, please examine their privacy rules. <br /> When you call a number listed on the Sites or make another inquiry for an estimate, quote, or service, we share this information with our network of Partners (each, a “Partner”) who pay us to provide this service in order for them to match you with service provider (“Service Provider” or each, a “Contractor”) who can give you estimates and other information relevant to your inquiry. Partners must use Personal Data in compliance with all relevant local, state, and federal laws, rules, and regulations, as stated in our terms of service. Please be aware that we no longer have control over any Personal Data that is sent to our Partners or Service Provider as part of our services. You should speak with each Partner and Contractor directly to inquire about how they use your Personal Data since each has their own Privacy Policies.
+
+         </SectionCard>
+
+          <SectionCard title="Personal Information">
+<strong>“Personal Data”:</strong> refers to any information on a named or distinguishable individual as well as any performance, log, and cookie data that might be connected to a named individual. The following categories of data are collected and processed by us. The specific Personal Data components described in the sample are supplied primarily as a guide and are subject to change. For certain business reasons of ours, of our Partners, and of our Affiliates, as described below, we may build anonymous records from Personal Data. Any data that has been aggregated or anonymized ceases to be Personal Data, and we are free to use, disclose, and keep track of it forever for any purpose.   
+<br />
+<strong>“Contact Data”:</strong> Information about you that can be utilized to get in touch with you. Name, title, company name, email address, physical location, phone number, and/or username, for instance, are all acceptable examples. Information generated by your usage of our sites is referred to as “Performance & Log Data”. Examples include your IP address, browser type, operating system, command-line information, diagnostic data about the Site (such as crash activity reports), the referring website, the pages you viewed, the date, your geolocation, your mobile carrier, your device and application IDs, and search phrases. Please take note that your IP address may be regarded as personally identifiable information under the laws of your country of residence.
+<br />
+<strong>“Cookies:” </strong>Your web browser saves a little bit of data called a cookie that is created by a website. It serves the same function as a software application’s preference file in that it stores information about you. Cookies and other automated data collecting tools may occasionally be used to gather personal data, or data that might become personal data if combined with other data.
+
+<br />
+<strong>“Web Pixels”:</strong> A web pixel is a little piece of HTML code that loads when a person accesses a website or opens an email. It is used to track user behavior on our websites, including form submissions and referring websites. Web pixels may occasionally be used to gather personal data, or data that might constitute personal data if combined with other data.
+
+<br />
+<strong>“Other Data”:</strong> refers to any additional details a person gives us. For instance, we may get feedback via surveys, blog comments, or other communications.
+
+
+
+       </SectionCard>
+
+          <SectionCard title="Collection and Processing">
+When you call a contact number provided on our websites, we will take your personal information. Our sites are accessible to the general public, which means that any information published there may be “crawled,” searched for, and utilized by unaffiliated third parties. Please do not contact us from any phone number that you do not want us to use and publish as specified below, and do not post any information that you do not want made public.
+
+<br />
+<strong>Requests for Quotes:</strong> If you use one of our sites to submit a request for a quotation, estimate, or other information, we may use your personal information to match that request with a Partner or Contractor in our network. A group of Partners who have networks of nearby Service Provider to offer residential services make up our “Partner Network”.
+<br />
+<strong>Customer Service:</strong> If you contact us via the Sites, whether by filling out a “contact us” or other online inquiry form, signing up for a newsletter or blog, downloading a whitepaper or other informational document, participating in a contest, signing up for a demo or webinar, completing an online survey, or by any other means, we may keep a record of your Contact Data in our customer relationship management system and use your Personal Data to reply to you, or provide this information to other parties.If you give us a mobile phone number, you explicitly authorize us, our Partners, and Service Provider to text that number in order to fulfill your request and to call you at that number using an auto-dialer or a recorded message, as we may choose to do.
+
+<br />
+<strong>Marketing:</strong> As permitted by applicable law, we may use your Personal Data to send you marketing materials about participating Partners and easyhomeservice.com, as well as on behalf of our parent company, affiliates, subsidiaries, joint ventures, or other businesses that share our control (collectively, “Affiliates”) and partner businesses. Marketing emails, online polls, alerts about our events and webinars as well as those of our partners, service provider, affiliates, and other third parties might all be considered promotional materials.If you provide us with a mobile phone number, you hereby expressly consent to our use of that number for marketing and promotional purposes, including the sending of text messages, voicemails, and/or automated calls, as determined by us and/or our Partners and Service Provider. You always have the option to stop receiving our marketing mailings.
+
+<br />
+<strong>Cookies and Related Technology:</strong> When you visit the Sites or view one of our HTML emails, we may automatically capture Performance & Log Data using technology like Cookies, Web Pixels, web beacons, click-stream tracking, and similar automated data collecting techniques. We utilize this Personal Data for necessary and practical functions such as site management, enhancing the functionality and usability of the Sites, and tracking user behavior on the Sites. We may use these technologies to gather Personal Data on some parts of our sites for advertising, retargeting, or other similar uses.
+
+<br />
+<strong>Security:</strong> In order to protect our sites from spam, malware, and other security threats, we process your personal data. This can involve keeping an eye on what you do on our websites. We might not be in a position to maintain the security of our Sites without processing your Personal Data for such reasons.
+
+<br/>
+<strong>Additional Processing:</strong> Unless otherwise specified when you supply it, this Policy will still apply generally (e.g. with respect to Your Rights and Choices) if we treat Personal Data in connection with your use of the Sites in a manner not outlined in this Policy.
+
+
+
+
+          </SectionCard>
+
+          <SectionCard title="Sharing">
+            Depending on the reason for and context of the information’s provision, the information we gather may be shared with a range of parties. We shall always adhere to the “minimum necessary” criteria when disclosing Personal Data to third-party service providers working on our behalf. This means that we will only release the details essential to accomplish the task at hand. We typically transfer personal data in accordance with:
+
+<br />
+<strong>Consent:</strong> If you give us permission to disclose your Personal Data, we will do so. You give us permission to share your Personal Data with Partners in our Partner Network, and those Partners may in turn share your Personal Data with Service Provider, by sending any Personal Data through our Sites or by dialing a number listed on our Sites.
+
+<br/>
+<strong>Partner Network:</strong> When you submit a quote request, we could send your personal information to Partners in our partner network who pay us to offer this service. Our Partners may link you with a Contractor to help you with your home services project using your personal data, and they may also share your personal data with that Contractor so that they may get in touch with you to offer their services. By giving us your mobile phone number, you expressly authorize us, as well as any Partner or Contractor with whom we match you through our service, to call and send texts to that number in order to handle your request and to get in touch with you there via phone call, text, auto-dialer, or recorded message, as we or our Partners or Service Provider may choose to do. You should be aware that Partners and Service Provider are outside parties. We no longer control any Personal Data that is given to a Partner or Contractor as part of our services; instead, it is governed by their privacy rules.
+
+<br/>
+<strong>Service Providers:</strong> We may share your Personal Data with service providers or sub-processors that provide certain services or handle data on our behalf in conjunction with our regular business operations, to enable particular features, and in connection with our other legitimate business purposes. You agree to our sharing of information with these parties by using our sites in accordance with this Policy. Our contracts with these service providers stipulate that they may only use your information in conjunction with the services they provide for us.
+
+<br/>
+<strong>Affiliates:</strong> We may share your Personal Data with any of our current or potential Affiliates in order to expedite certain company processes, provide goods and services that better fit the requirements and interests of our clients, and keep them informed about pertinent goods and services. You hereby consent to our disclosing all or a portion of your Personal Data to our Affiliates.
+
+<br/>
+
+<strong>Third-Party Partners:</strong> Any information gathered through an online inquiry form located on the Sites that you submit after being referred by a third-party partner may be shared with the referring third party partner. As authorized by law, we could divulge your personal information to third parties for marketing or advertising reasons. For instance, when you register for a webinar that we co-host with a third party partner, we may provide that partner access to your Personal Data. Subject to their respective privacy rules, our third-party partners may use your personal data for their own reasons.
+
+<br/>
+
+<strong>Business Transactions:</strong> In the case of a business transaction, such as a merger, acquisition, liquidation, or sale of all or a portion of our assets, your personal data may be processed. The acquiring firm would thereafter be in possession of any rights given to us under this Policy. For instance, Personal Data may be revealed (subject to confidentiality constraints) during the due diligence process for a possible acquisition or may be included in the assets transferred.
+
+<br/>
+<strong>Legal Disclosures:</strong> Under certain conditions, we may access and disclose your Personal Data, any communications sent or received by you, and any other information we may have about you without your knowledge or consent, to the extent we believe that such disclosure is necessary to comply with the law, to stop or stop the commission of a crime, to respond to a complaint about a possible violation of our Terms of Use, or to protect the life or health of us or another person. Please take note that these disclosures can go to nations whose laws don’t offer the same level of protection for your personal information as those in your country of residence. We reserve the right to object to the transmission of your Personal Data to such parties at our sole discretion (but without any obligation).
+
+
+
+          </SectionCard>
+
+          <SectionCard title="Retention">
+We keep personal data for as long as is required to fulfill the purpose(s) for which it was processed and for a reasonable amount of time afterward, or as long as is required to meet legal requirements, settle disputes, or uphold agreements. We normally use the retention periods shown below, even though they may change according on the jurisdiction:
+<br/>
+
+<strong>Site Activity:</strong> We may keep track of your activity on our sites, as well as any other data you post, create, or share there, for as long as we think it’s necessary—which could be forever—or until you specifically tell us to delete it. We may also keep track of this information when we have a good reason to do so, such as when we need to protect the security of our systems and logs, establish or defend legal claims, conduct audits, or prevent crimes.
+<br/>
+
+<strong>Marketing:</strong> Until you unsubscribe, we keep the data used for marketing purposes on file. In order to honor your request to no longer receive marketing messages, we put your contact information to our suppression list.
+<br/>
+<strong>Cookie Data:</strong> For a period of one year following the expiration of any cookies or the date on which they were set up, we store any information obtained by cookies, clear gifs, flash cookies, site counters, or other technical or analytical tools. Other retention periods may apply to cookies held by third parties.
+<br/>
+<strong>Call Recording:</strong> As required by relevant legislation, we will let you know before we start recording a call. Any telephone conversations with you that are recorded may be kept for up to six years.
+<br/>
+Please be aware that we no longer have control over any Personal Data that is sent to our Partners or Service Provider as part of our services. Each Partner and Contractor has its own data retention policy, even though our terms of service stipulate that Partners and Service Provider must use Personal Data in compliance with all relevant local, state, and federal laws, rules, and regulations. To inquire about the retention of your personal data by such Partners or Service Provider, please get in touch with them directly.          </SectionCard>
+<br />
+          <SectionCard title="Your Rights and Choices">
+<strong>Rights:</strong> You have the following rights about your personal data, subject to our rights to restrict or object to access or disclosure under applicable legislation in each situation, as necessary or authorized by relevant law.
+<br />
+<strong>Access: </strong>You can ask for a list of the Personal Data we hold on you by sending a formal email to the address shown below.
+<br />
+<strong>Correction:</strong> You can update any personal information we may have on you by emailing us at the address shown below, along with the updated information.
+<br />
+<strong>Data Export:</strong> To obtain a copy of your Personal Data in a commonly used portable format of our choosing, send a formal email request to the address shown below.
+<br />
+To exercise these rights, we could ask you for additional Personal Data, such as documentation of your identification. Additionally, we reserve the right to preserve some account data for record-keeping or regulatory needs. Please be aware that we no longer have control over any Personal Data that is sent to our Partners or Service Provider as part of our services. In line with our terms of service, Partners and Service Provider must use Personal Data in a way that complies with all local, state, and federal laws, rules, and regulations. For you to exercise your rights, each Partner and Contractor has its own policies and processes. For further information on how to exercise your rights regarding your personal data, you should speak with those Partners and Service Provider directly.         
+
+<br />
+
+
+</SectionCard>
+
+<SectionCard title="Choices">
+You can access and use our website without providing any personal information, but please be aware that this may limit your access to certain features, content, or affect the proper functioning of some parts of the site. You have several options when it comes to your personal data:
+<br />
+<strong>Consent:</strong> If you’ve given us permission to process your data, you can withdraw that consent as required by law.
+<br />
+<strong>Opt-Out:</strong> Any non-essential communications from us will include an “unsubscribe” option. You can choose not to receive marketing communications by following the opt-out instructions in these messages or by contacting us via the provided email. Please note that it might take up to 30 days for us to process your opt-out request. However, we may still send you essential transactional emails, such as service updates and surveys, without the option to unsubscribe. If required by law, you can also opt-out of sharing your personal data with third parties. Keep in mind that once we’ve shared your data with our partners and service provider, we no longer control it. Our partners are obligated to use this data in compliance with applicable laws, but you should contact them directly for their opt-out policies.
+<br />
+<strong>Telemarketing:</strong> We adhere to regulations from Federal Trade Commission (FTC), Federal Communications Commission (FCC), and state laws. If you wish to avoid non-informational calls from us, you can request to be added to our internal Do Not Call List by emailing us with your name and telephone number(s). This request will be processed within thirty days, in accordance with federal and state laws. However, if your data has been shared with our partners or service provider, you should contact them individually to be placed on their Do Not Call Lists.
+<br />
+<strong>Cookies:</strong> If you want to manage or deny the collection of information through cookies and similar technologies, you can do so through your browser’s settings or by using various tools available. There are also options provided by specific platforms, such as Google Ads Settings, Google Analytics Opt Out Browser add-on, Digital Advertising Alliance’s opt-out page, Network Advertising Initiative opt-out page, and Facebook’s account settings. Keep in mind that we don’t change our data collection practices based on “Do Not Track” signals, as there’s no consistent industry standard for responding to such signals.
+</SectionCard>
+
+          <SectionCard title="Security">
+We have put in place reasonable security measures to protect your personal data from accidental loss, unauthorized access, use, alteration, and disclosure. However, we cannot guarantee the absolute security of your personal data. We are not responsible if someone manages to bypass any privacy settings or security measures on our website. Your information is stored on servers provided by our service providers, which follow industry-standard security practices. Nonetheless, we have no control over the security processes of third parties. Please be aware that any transmission of information or personal data is done at your own risk.
+
+          </SectionCard>
+
+          <SectionCard title="Minors">
+Our services are not intended for individuals under the age of 18 or the age of majority in their jurisdiction. We do not intentionally collect information from such individuals. If we inadvertently obtain such information, we will promptly delete it. If you are not of legal age in your jurisdiction, do not use our website unless you have obtained consent from your parent or guardian.
+
+          </SectionCard>
+
+          <SectionCard title="Contact Information">
+  Email: <a 
+    href="mailto:service@digitrench.com" 
+    className="text-black hover:text-black no-underline"
+  >
+    service@easyhomeservice.com
+  </a><br />
+  Website: <a 
+    href="https://digitrench.com" 
+    className="text-black hover:text-black no-underline"
+  >
+    digitrench.com
+  </a>
+</SectionCard>
+         </div>
+
+        </div>
+      </div>
+    </div>
+    <Footer/>
+    </>
+  );
+};
+
+// Reusable Section Card Component
+const SectionCard = ({ title, children }) => (
+  <div className="mb-6 text-left">
+    <h2 className="text-2xl font-semibold text-gray-800 mb-2">{title}</h2>
+    <p className="text-gray-700 leading-relaxed">{children}</p>
+  </div>
+);
+
+export default PrivacyPolicy;
