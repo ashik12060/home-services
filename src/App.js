@@ -47,6 +47,7 @@ import DoNotCallPolicy from "./pages/DoNotCallPolicy ";
 import CCPACompliance from "./pages/CCPACompliance";
 import Siding from "./components/Siding/Siding";
 import Contact from "./components/Contact";
+import About from "./pages/About/About";
 //HOC
 const AdminDashboardHOC = Layout(AdminDashboard);
 
@@ -120,6 +121,7 @@ function App() {
                 <Route path="/do-not-call-policy" element={<DoNotCallPolicy />} />
                 <Route path="/ccpa" element={<CCPACompliance />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/about" element={<About />} />
 
 
 

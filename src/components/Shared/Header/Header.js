@@ -23,22 +23,6 @@ const Header = () => {
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
 
-  // const services = [
-  //   { name: "Roofing", href: "/roofing", icon: "/images/roofing.svg" },
-  //   { name: "Windows", href: "/window", icon: "/images/windows.svg" },
-  //   { name: "Solar", href: "/solar", icon: "/images/solar.svg" },
-  //   { name: "HVAC", href: "/hvac", icon: "/images/hvac.svg" },
-  //   { name: "Bathroom", href: "/bathroom", icon: "/images/bathroom.svg" },
-  //   { name: "Kitchen", href: "/kitchen", icon: "/images/kitchen.svg" },
-  //   { name: "Gutter", href: "/gutter", icon: "/images/gutter.svg" },
-  //   { name: "Walk-In Tubs", href: "/walktub", icon: "/images/walk.svg" },
-  //   { name: "Handyman", href: "/handyman", icon: "/images/dropdownhandy.svg" },
-  //   { name: "Home Warranty", href: "/homewarranty", icon: "/images/Homewarranty.svg" },
-  //   { name: "Flooring", href: "/flooring", icon: "/images/nav-floor.svg" },
-  //   { name: "Siding", href: "/siding", icon: "/images/nav-siding.svg" },
-  //   { name: "View All", href: "/allservices", icon: "/images/s1_plus_icon.png" },
-  // ];
-
   const services = [
   { name: "Roofing", href: "/roofing", icon: s1_help_icon1 },
   { name: "Windows", href: "/window", icon: s1_help_icon2 },
@@ -79,33 +63,7 @@ const Header = () => {
           <nav className="hidden md:flex items-center text-xl space-x-6">
             <a href="/" className="text-blue-900 hover:text-green-600">Home</a>
 
-            {/* Services Dropdown */}
-            {/* <div 
-              className="relative"
-              onMouseEnter={() => setServicesOpen(true)}
-              onMouseLeave={() => setServicesOpen(false)}
-            >
-              <button
-                onClick={() => setServicesOpen(!servicesOpen)}
-                className="flex items-center space-x-1 text-blue-900 hover:text-green-600"
-              >
-                <span>Services</span>
-                <img src={downarrow} alt="arrow" className="h-2 w-3" />
-              </button>
-
-              {servicesOpen && (
-                <ul className="absolute left-0 mt-2 bg-white shadow-lg rounded-md p-4 min-w-[200px]">
-                  {services.map((service) => (
-                    <li key={service.name} className="flex items-center mb-2 last:mb-0 hover:bg-gray-100 rounded-md p-1">
-                      <a href={service.href} className="flex items-center gap-2">
-                        <img src={service.icon} alt={service.name} className="w-6 h-6" />
-                        <span>{service.name}</span>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div> */}
+           
 
             {/* Services Dropdown */}
 <div 
@@ -137,7 +95,6 @@ const Header = () => {
 
 
             <a href="/about" className="text-blue-900 hover:text-green-600">About</a>
-            <a href="/blog" className="text-blue-900 hover:text-green-600">Blog</a>
             <a href="/contact" className="text-blue-900 hover:text-green-600">Contact</a>
           </nav>
 

@@ -31,25 +31,25 @@ const Contact = () => {
       </div>
 
       {/* Contact Section */}
-      <div className="container max-w-6xl mx-auto py-20 px-4 grid md:grid-cols-2 gap-12">
+      <div className="container max-w-6xl mx-auto py-20 px-4 grid md:grid-cols-2 gap-12 ">
         {/* Contact Info */}
-        <div className="flex flex-col justify-start space-y-8">
+        <div className="flex flex-col justify-start space-y-8 py-10">
           <h3 className="text-3xl font-bold text-blue-900">WE ARE HERE FOR YOU!</h3>
           <p className="text-gray-700 text-lg">
             Empowering you with support and solutions.
           </p>
 
-          <div className="space-y-6">
+          <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <FaMapMarkerAlt className="text-blue-600 mt-1 w-6 h-6" />
+              <FaMapMarkerAlt className="text-green-600 mt-1 w-6 h-6" />
               <p className="text-gray-800">1309 Coffeen Avenue Ste 1200, Sheridan, WY 82801.</p>
             </div>
             <div className="flex items-start gap-4">
-              <FaEnvelope className="text-blue-600 mt-1 w-6 h-6" />
+              <FaEnvelope className="text-green-600 mt-1 w-6 h-6" />
               <p className="text-gray-800">service@easyhomeservice.com</p>
             </div>
             <div className="flex items-start gap-4">
-              <FaPhone className="text-blue-600 mt-1 w-6 h-6" />
+              <FaPhone className="text-green-600 mt-1 w-6 h-6" />
               <p className="text-gray-800">+1 833-380-9800</p>
             </div>
           </div>
@@ -116,7 +116,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full bg-blue-900 text-white py-4 rounded-2xl hover:bg-blue-700 transition-colors font-semibold shadow-lg"
+              className="w-full bg-green-600 text-white py-4 rounded-2xl hover:bg-blue-700 transition-colors font-semibold shadow-lg"
             >
               Submit
             </button>
